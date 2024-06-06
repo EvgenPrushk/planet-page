@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 63px;
+  line-height: 76.24px;
+  font-weight: 500;
+}
+/* 
+@media (max-width: 576px) {
+  h1 {
+    font-size: 31px;
+    line-height: 37.52px;
+  }
+} */
+
+h2 {
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+/* @media (max-width: 576px) {
+  h2 {
+    font-size: 31px;
+    line-height: 37.52px;
+  }
+} */
+
+
+
+@layer base {
+  ul {
+    list-style: disc;
+  }
+  ol {
+    list-style: decimal;
+  }
+}
+
+.active-tab {
+  background: linear-gradient(to right, #0072CE, #6FBEFD);
+}
+
+
