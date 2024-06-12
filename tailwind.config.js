@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./**/*.{html,js}"],
 
   theme: {
     extend: {
@@ -40,10 +40,10 @@ module.exports = {
         "container-sm": "540px",
         "container-md": "720px",
         "container-lg": "960px",
-        "container-xl": "1173px",
-        "container-2xl": "1300px",
-        "container-3xl": "1500px",
-        "container-4xl": "1600px",
+        "container-xl": "1016px",
+        "container-2xl": "1016px",
+        "container-3xl": "1016px",
+        "container-4xl": "1016px",
       },
       screens: {
         xs: "0px",
