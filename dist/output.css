@@ -797,6 +797,18 @@ ol {
   margin-top: 0.5rem;
 }
 
+.mb-\[5px\] {
+  margin-bottom: 5px;
+}
+
+.mb-\[10px\] {
+  margin-bottom: 10px;
+}
+
+.mb-\[40px\] {
+  margin-bottom: 40px;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -2201,6 +2213,10 @@ ol {
   padding-top: 40px;
 }
 
+.pb-\[40px\] {
+  padding-bottom: 40px;
+}
+
 .text-left {
   text-align: left;
 }
@@ -2895,6 +2911,12 @@ h4 {
 
 .hover\:font-bold:hover {
   font-weight: 700;
+}
+
+.hover\:shadow-custom:hover {
+  --tw-shadow: 0 0 0 5px #c7c3c8;
+  --tw-shadow-colored: 0 0 0 5px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .hover\:shadow-lg:hover {
